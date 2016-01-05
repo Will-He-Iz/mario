@@ -1,11 +1,15 @@
+/* Body
+===================================*/
 
+body {
+  padding-top: 200px;
+}
 
 /* Sprite
 ===================================*/
 
 .mario {
-  position:fixed;
-  left: -50px;
+  left: -400px;
 }
 
 
@@ -17,25 +21,21 @@
 .button {
 
 /* step 1: basic button styles */
-
-  display: block;
-  margin: auto;
-  width: 300px;
-  height: 100px;
   background: none;
   border: solid skyblue 2px;
+  padding: 10px;
 
 /* step 2: basic text styles*/
   color: skyblue;
   text-align: center;
   font: 3.2em/100px sans-serif;
-}
-
-a.button {
   text-decoration: none;
 }
+
+
 
 .button:hover {
   background-color: skyblue;
   color: white;
+  text-decoration: none;
 }
